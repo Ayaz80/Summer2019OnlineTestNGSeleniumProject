@@ -11,7 +11,7 @@ public class TestsForTagNameLocator {
         WebDriver driver= BrowserFactory.getDriver("chrome");
         driver.manage().window().maximize();
         driver.get("http://practice.cybertekschool.com/sign_up");
-        //if you want to do in one line, without creating webelemnt reference variable
+        //if you want to do in one line, without creating webelemrnt reference variable
         //enter full name
         driver.findElement(By.name("full_name")).sendKeys("Test User");
         //enter email
